@@ -1,0 +1,48 @@
+.App {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #fff;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.Image {
+  border-radius: 80%;
+  width: 90px;
+  margin: 10px;
+  border: 2px black solid;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.SingleImage {
+  border-radius: 100%;
+  width: 210px;
+  margin: 10px;
+  border: 2px black solid;
+}
+
+.description {
+  margin: 20px;
+  width: 70%;
+}
